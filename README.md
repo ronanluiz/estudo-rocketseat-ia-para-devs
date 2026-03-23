@@ -1,0 +1,1 @@
+# estudo-rocketseat-ia-para-devs
