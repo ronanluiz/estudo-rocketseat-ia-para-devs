@@ -24,7 +24,7 @@ llm = ChatOpenAI(model_name = "gpt-3.5-turbo", max_tokens = 200)
 
 # Carregar PDF
 def loadData():
-    pdf_link = "Clean Architecture.pdf"
+    pdf_link = "Clean-Architecture.pdf"
     loader = PyPDFLoader(pdf_link, extract_images=False)
     pages = loader.load_and_split()
 
