@@ -11,7 +11,7 @@ COPY requirements.txt ${LAMBDA_TASK_ROOT}
 RUN pip install -r requirements.txt
 
 # Copy PDF file
-COPY Clean-Architecture.pdf ${LAMBDA_TASK_ROOT}/Clean-Architecture.pdf
+COPY arquitetura-design-software.pdf ${LAMBDA_TASK_ROOT}/arquitetura-design-software.pdf
 
 # Copy the function code
 COPY simplerag.py ${LAMBDA_TASK_ROOT}
